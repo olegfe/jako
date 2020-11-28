@@ -1,0 +1,145 @@
+body {
+    padding-top:71px;
+    padding-bottom: 300px;
+    background-image: url("logo2.png");
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 10px;
+    padding-right: 30px;
+    
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 250px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 10px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; /*календарь*/
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    background: none;
+    border-radius: 20px;
+}
+
+th {
+   
+}
+
+
+
+ul.css-menu-3 li {
+display: inline
+}
+
+    ul.css-menu-3 li a {
+        color: #fefefe;
+        text-decoration: none;
+        background: none;
+        border: 1px solid #225588;
+        border-bottom: 1px solid #114477;
+        margin: 0;
+        padding: 10px 14px 10px 14px
+    }
+
+ul.css-menu-3 li a:hover {border-left: 1px solid #114477; border-right: 1px solid #114477}
+
+ul.css-menu-3 li a.selected {
+color: #fefefe;
+background: #bb0000;
+border: 1px #cc0000 solid;
+border-bottom: 1px solid #bb0000;
+border-left: 1px solid #770000;
+padding: 10px 14px 10px 14px
+}
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0 /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top: 0px; /*делаем отступ сверху*/
+    background: none; /*добавл€ем фон всему меню*/
+    height: -1px; /*задаем высоту*/
+}
+
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background: #222222; /*добавл€ем фон к пункту меню*/
+    color: #e3e8d1; /*мен€ем цвет ссылок*/
+    padding: 6px 15px; /*добавл€ем отступ*/
+    font-family: arial; /*мен€ем шрифт*/
+    line-height: px; /*ровн€ем меню по вертикали*/
+    display: block;
+    border-right: 1px solid #block
+
+{
+    background-color: transparent
+} /*добавл€ем бордюр справа*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+
+a:hover {
+    background: #222222; /*добавл€ем эффект при наведении*/
+}
+
+li {
+    float: left; /*–азмещаем список горизонтально дл€ реализации меню*/
+    position: relative; /*задаем позицию дл€ позиционировани€*/
+}
+
+    /*—тили дл€ скрытого выпадающего меню*/
+    li > ul {
+        position: absolute;
+        top: 25px;
+        display: none;
+    }
+
+    /*ƒелаем скрытую часть видимой*/
+    li:hover > ul {
+        display: block;
+        width: 250px; /*«адаем ширину выпадающего меню*/
+    }
+
+        li:hover > ul > li {
+            float: none; /*”бираем горизонтальное позиционирование*/
+        }
+
+tbody tr:nth-child(2) {
+    border-bottom: 2px solid #F56433;
+}
+
+td {
+    padding: 10px;
+    color: #8D8173;
+}
